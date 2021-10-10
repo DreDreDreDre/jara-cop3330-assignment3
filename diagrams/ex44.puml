@@ -6,11 +6,10 @@ class App
     +main(String[] args):void
 }
 
-file input
-{
+file exercise44_input.json{
 
 }
 
-App <-> input
+App <-> exercise44_input.json
 
 @enduml

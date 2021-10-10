@@ -1,6 +1,5 @@
 @startuml
-class App
-{
+class App{
     +indexOfSortedWord(int unsortedCount, ArrayList<Integer> sortedCountsList):int
     +printSortedWordFrequency(ArrayList<String> uniqueWordBank, ArrayList<Integer> countsList):void
     +getNumWords(ArrayList<String> uniqueWordBank, ArrayList<String> allWords, int uniqueWordBankIndex):int
@@ -9,8 +8,7 @@ class App
     +readInput(Scanner input):ArrayList<String>
     +main(String[] args):void
 }
-file exercise46_input.txt
-{
+file exercise46_input.txt{
 
 }
 

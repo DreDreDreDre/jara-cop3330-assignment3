@@ -1,15 +1,12 @@
 @startuml
-class App
-{
+class App{
     +main(String[] args):void
 }
-file exercise41_input.txt
-{
+file exercise41_input.txt{
 
 }
 
-file exercise41_output.txt
-{
+file exercise41_output.txt{
 
 }
 
