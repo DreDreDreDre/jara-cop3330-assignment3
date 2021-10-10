@@ -13,7 +13,7 @@ import com.google.gson.stream.JsonReader;
  *  Copyright 2021 Andre Jara
  */
 
-public class App46
+public class App
 {
     /* IndexOfSortedWord Function
     *

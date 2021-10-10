@@ -13,7 +13,7 @@ import com.google.gson.stream.JsonReader;
  *  Copyright 2021 Andre Jara
  */
 
-public class App44
+public class App
 {
     /* ReadProduct Function
     *

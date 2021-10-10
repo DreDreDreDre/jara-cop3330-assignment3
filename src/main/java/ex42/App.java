@@ -12,7 +12,7 @@ import java.nio.file.Paths;
  *  Copyright 2021 Andre Jara
  */
 
-public class App42
+public class App
 {
     /* WriteToFile Function
     *
