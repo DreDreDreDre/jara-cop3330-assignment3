@@ -1,0 +1,29 @@
+@startuml
+class App
+{
+    +writeToHtml(String siteName, String authorName, String htmlPath):void
+    +createFiles(Path websitePath, Path namedSitePath, String jsFolderResponse, String cssFolderResponse, String siteName, String authorName):void
+    +main(String[] args):void
+}
+
+folder website
+{
+    folder namedWebsite
+    {
+        file index.html
+        {
+            contains Title and Author
+        }
+        folder js
+        {
+            JsFolder
+        }
+        folder css
+        {
+            CssFolder
+        }
+    }
+}
+
+App->website
+@enduml

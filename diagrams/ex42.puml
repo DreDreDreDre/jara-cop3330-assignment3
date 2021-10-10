@@ -1,0 +1,21 @@
+@startuml
+class App
+{
+    +writeToFile(String[] lastNames, String[] firstNames, String[] numbers, PrintWriter pw):void
+    +readInput(Scanner in):ArrayList<String>
+    +main(String[] args):void
+}
+
+file exercise42_input.txt
+{
+
+}
+
+file exercise42_output.txt
+{
+
+}
+
+App <-> exercise42_input.txt
+App -> exercise42_output.txt
+@enduml

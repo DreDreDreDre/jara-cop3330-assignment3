@@ -1,0 +1,18 @@
+@startuml
+class App
+{
+    +indexOfSortedWord(int unsortedCount, ArrayList<Integer> sortedCountsList):int
+    +printSortedWordFrequency(ArrayList<String> uniqueWordBank, ArrayList<Integer> countsList):void
+    +getNumWords(ArrayList<String> uniqueWordBank, ArrayList<String> allWords, int uniqueWordBankIndex):int
+    +searchForWord(ArrayList<String> wordBank, String stringToSearchFor):boolean
+    +getWordBank(ArrayList<String> allWords):ArrayList<String>
+    +readInput(Scanner input):ArrayList<String>
+    +main(String[] args):void
+}
+file exercise46_input.txt
+{
+
+}
+
+App <-> exercise46_input.txt
+@enduml

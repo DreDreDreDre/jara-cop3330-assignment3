@@ -1,0 +1,19 @@
+@startuml
+class App
+{
+    +readInput(Scanner in, BufferedWriter bw):void
+    +main(String[] args):void
+}
+
+file exercise45_input.txt
+{
+
+}
+
+file output
+{
+
+}
+App <-> exercise45_input.txt
+App -> output
+@enduml

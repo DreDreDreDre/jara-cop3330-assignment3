@@ -1,0 +1,16 @@
+@startuml
+class App
+{
+    +readProduct(JsonReader reader, String productName):boolean
+    +readJson(JsonReader reader, String input):boolean
+    +main(String[] args):void
+}
+
+file input
+{
+
+}
+
+App <-> input
+
+@enduml

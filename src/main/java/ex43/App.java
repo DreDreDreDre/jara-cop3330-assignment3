@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 
 public class App
 {
-    /* WriteToHTML
+    /* WriteToHTML Function
     *
     *   Instantiates buffered writer
     *   Writes siteName and authorName to output html file
@@ -37,7 +37,7 @@ public class App
         }
 
     }
-    /* Create Files
+    /* Create Files Function
     *
     *   Creates folders
     *   Instantiates path string to create html output file

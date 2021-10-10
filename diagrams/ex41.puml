@@ -1,3 +1,18 @@
 @startuml
+class App
+{
+    +main(String[] args):void
+}
+file exercise41_input.txt
+{
 
+}
+
+file exercise41_output.txt
+{
+
+}
+
+App <-> exercise41_input.txt
+App -> exercise41_output.txt
 @enduml
